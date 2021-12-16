@@ -1,2 +1,2 @@
   // Соединяюсь со своим сервером
-  socket = io(`https://still-basin-56620.herokuapp.com/`);
+  socket = io(`http://185.26.121.63:3001`);

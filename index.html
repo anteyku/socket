@@ -40,4 +40,11 @@
 
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.0/socket.io.js"></script>
 
-<script src="scripts/chat.js"></script>
+<script>
+    // Соединяюсь со своим сервером
+    let socket = io('ws://185.26.121.63:3000', {
+      path : '/',
+      transports : ['websocket']
+    });
+
+</script>
